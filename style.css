@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fefefe;
+  color: #2e4d42;
+}
+
+.top-bar {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.user-icon {
+  padding-right: 10px;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #2e4d42;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #2e4d42;
+}
+
+.login-btn {
+  background-color: #2e4d42;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+  height: 380px;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.7);
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  max-width: 350px;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.overlay h1 {
+  font-size: 28px;
+  color: #2e7a69;
+  margin-bottom: 10px;
+}
+
+.overlay p {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.about-btn {
+  background-color: #2e7a69;
+  color: white;
+  padding: 8px 14px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.offers {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.offers h2 {
+  font-size: 26px;
+  margin-bottom: 40px;
+  color: #2e4d42;
+}
+
+.offer-box {
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 18px;
+  max-width: 700px;
+  margin: 20px auto;
+  display: flex;
+  overflow: hidden;
+  text-align: left;
+}
+
+.offer-box img {
+  width: 200px;
+  height: 120px;
+  object-fit: cover;
+}
+
+.offer-box div {
+  padding: 15px;
+}
+
+.offer-box h3 {
+  color: #2e7a69;
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #2e7a69;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  font-size: 14px;
+}
